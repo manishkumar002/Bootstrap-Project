@@ -1,0 +1,513 @@
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <script src="js/bootstrap.bundle.js"></script>
+<link href="css/all.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   .bg-mycolor
+    {
+        background:  linear-gradient(60deg,red,navy) !important;
+        
+    }
+    .text-mycolor
+    {
+      color: white !important;
+    }
+    .m
+    {
+        position: absolute;
+        top:450px;
+        left:0px;
+        z-index: 1;
+        transform:translateX(-30px);  
+    }
+    </style>
+    <body>
+            <div class="container-fluid">
+                <!--start top-->
+                <div class="row top  text-mycolor bg-mycolor text-center py-2">
+                    <div class="col-sm-4 ">
+                        <i class="fa-solid fa-envelope"></i>
+                        manishkumar951934@gmail.com
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa-solid fa-phone"></i>
+                        +91-6307899113
+                    </div>
+                   
+                    <div class="col-sm-4">
+                        <i class="fa-brands fa-youtube p-2"></i>
+                        <i class="fa-brands fa-instagram p-2"></i>
+                        <i class="fa-brands fa-twitter p-2"></i>
+                        <i class="fa-brands fa-whatsapp p-2"></i>
+                    </div>
+                </div>
+                <!--end top-->
+                <!--start top2-->
+                <div class="row top-2 " style="background: #ded8f0;">
+                    <div class="col-sm-3 mt-3">
+                        <p class="text-center fs-2">Desire<b class="text-danger fs-2">Cart
+                            <i class="fa-solid fa-cart-shopping text-danger fs-1 "></i>
+                        </b></p>
+                    </div>
+                    <div class="col-sm-6 mt-3">
+                        <div class="row">
+                            <div class="col-sm-2"></div>  
+                            <div class="col-sm-8 "> 
+                        <div class="input-group m-1 fs-3 ">
+                            <input type="password" placeholder="Enter your Email" class="form-control "/>
+                            <i class="input-group-text  bg-mycolor text-light ">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                            </i>
+                        </div>
+                    </div> 
+                        <div class="col-sm-2"></div>  
+                    </div>
+            </div>    
+                    <div class="col-sm-3 text-center fs-1 mt-3">
+                        <i class="fa-solid fa-cart-shopping text-light bg-mycolor border border-1 rounded-3 p-1"></i>
+                    </div>
+                </div>
+                <!--end top2-->
+                
+                <div class="row menu bg-mycolor sticky-top ">
+                    <div class="col-sm-4 text-center mt-2">
+                        <b class="fs-4  text-dark"> DESIRECART</b>
+                    </div>
+                    <div class="col-sm-8">
+<!--start menu-->
+<nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active text-light" aria-current="page" href="demo1.html">
+                <i class="fa-solid fa-house-user text-light"></i>
+                HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-brands fa-product-hunt"></i>
+              PRODUCT
+            </a>
+            <ul class="dropdown-menu bg-mycolor">
+              <li><a class="dropdown-item" href="mens.html">MENS</a></li>
+              <li><a class="dropdown-item" href="womens.html">WOMENS</a></li>
+              <li><a class="dropdown-item" href="kids.html">KIDS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="myorder.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+              MY ORDERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="myprofile.html">
+                <i class="fa-solid fa-user"></i>
+              MY PROFILE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">
+                <i class="fa-solid fa-phone"></i>
+              CUSTOMER SUPPORT</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-light  " href="registr.html">
+                <i class="fa-solid fa-user"></i>
+
+               SIGN-UP</a>
+          </li>
+          <li class="nav-item" data-bs-toggle="modal" data-bs-target="#box">
+            <a class="nav-link text-light " href="#">
+              <i class="fa-solid fa-key" ></i>
+              SIGN-IN</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<!--end menu-->
+                    </div>
+
+                    
+                </div>
+       
+  
+  <!-- Modal -->
+  <div class="modal fade" id="box" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body px-4">
+          <b class="text-danger float-end" data-bs-dismiss="modal"><i class="fa-sharp fa-solid fa-circle-xmark"></i></b>
+          <p class="text-center fs-3">LOGIN <b class="text-success">HERE
+            <i class="fa-solid fa-lock"></i></b>
+          </p>
+          USERID</BR>
+          <div class="input-group">
+            <span class="input-group-text">USERID</span>
+            <input type="email" placeholder="Enter your Userid" class="form-control"/>
+          </div>
+          Password</BR>
+          <div class="input-group">
+            <span class="input-group-text">USERID</span>
+            <input type="password" placeholder="Enter your password" class="form-control"/>
+          </div>
+          <input type="submit" value="LOGIN " class="btn btn-outline-success mt-3"/>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<div class="row slider">
+    <div class="col-sm-12 p-0">
+<!-- start slaider-->
+<div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="500">
+        <img src="images/banner-1.jpg" class="d-block w-100" alt="..." style="max-height:580px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/banner-2.jpg" class="d-block w-100" alt="..." style="max-height:580px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/banner-3.jpg" class="d-block w-100" alt="..." style="max-height:580px;">
+        <div class="carousel-caption d-none d-md-block ">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--end slaider-->
+
+    </div>
+</div>
+<div class="bg-mycolor text-light text-center fs-2 pt-1 m" style="height: 60px;position:fixed; width: 200px;border-radius: 35px ;padding-left:50; " >
+    <a href="feedback.html" ><i class="fa-solid fa-comments"></i></a>
+</div>
+<div class="row">
+    <div class="col-sm-4 mt-4">
+    
+        <img src="images/slider4.jpg" class="card-img-top" alt="..." style="height: 300px;">
+        <div class="ms-5 bg-mycolor text-light text-center" style="height: 40px;width: 100px;border-radius:40px;transform: translate(120px,-170px);"> <a href="mens.html">Men's</a></div>
+     
+    </div> 
+    <div class="col-sm-4 mt-4">
+        
+            <img src="images/slider3.jpg" class="card-img-top" alt="..."  style="height: 300px;">
+            <div class="ms-5 bg-mycolor text-light text-center" style="height: 40px;width: 100px;border-radius:40px;transform: translate(120px,-170px);"><a href="womens.html">Women's</a></div>
+        
+        </div>
+        <div class="col-sm-4 mt-4">
+            
+                <img src="images/slider8.jpg" class="card-img-top" alt="..."  style="height: 300px;">
+                <div class="ms-5 bg-mycolor text-light text-center" style="height: 40px;width: 100px;border-radius:40px;transform: translate(120px,-170px);"><a href="kids.html">kid's</a></div>
+             
+            </div>
+</div>
+
+<div class="row product text-center">
+  <p class="fs-2 text-warning">OUR<B class="fs-2 text-dark">PRODUCT
+    <i class="fa-solid fa-cart-shopping text-dark "></i>
+  </B></p>
+  <div class="col-sm-3">
+        <div class="card bg-light">
+<img src="images/w4.jpg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Womens Saree</b>
+<p class="text-center">Womens plain saree</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+ 
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+    </div>
+  </div> 
+  <div class="col-sm-3">
+    <div class="card bg-light">
+<img src="images/mt3.jpg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Mens Tshirt</b>
+<p class="text-center">Mens loose Tshirt</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+    <div class="card bg-light">
+<img src="images/kj2.jpeg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Kids jeans</b>
+<p class="text-center">kids fit jeans</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+    <div class="card bg-light">
+<img src="images/w5.jpg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Womens Kurti</b>
+<p class="text-center">Womens long fit kurti</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 mt-4">
+    <div class="card bg-light">
+<img src="images/wt2.jpeg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Womens Saree</b>
+<p class="text-center">Womens plain saree</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div> 
+<div class="col-sm-3 mt-4">
+<div class="card bg-light">
+<img src="images/k3.jpeg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Mens Tshirt</b>
+<p class="text-center">Mens loose Tshirt</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 mt-4">
+<div class="card bg-light">
+<img src="images/kj4.jpeg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Kids jeans</b>
+<p class="text-center">kids fit jeans</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 mt-4">
+<div class="card bg-light">
+<img src="images/w2.jpg" class="img-card-top" style="height: 300px;"/>
+<div class="card-body">
+<div class="card-title fw-bold fs-5">
+<b>Womens Kurti</b>
+<p class="text-center">Womens long fit kurti</p>
+</div>
+<div class="card-text">
+<b>SIZE PRICE
+<i class="fa-solid fa-computer-classic"></i>
+</b>
+<b class="text-success">10000/-</b><s class="text-danger">12000/</s>
+</br>
+<span class="btn btn-outline-light bg-mycolor ">ADD TO CART
+</span>
+<span class="btn btn-outline-light ms-5 bg-mycolor">ORDER NOW</span>
+</div>
+</div>
+</div>
+</div>  
+</div>
+<div class="row bigsale text-center">
+    <p class="fs-2 text-warning">BIG<B class="fs-2 text-dark">SALE
+      </B></p>
+    <div class="col-sm-6">
+        <img src="images/kt1.jpeg" class="img-fluid" style="height: 500px;"/>    
+    </div>
+    
+        <div class="col-sm-6 p-5 text-center">
+            <spna class="text-warning fs-2 fw-bold ">50% less in all items</spna><br><br>
+            <span class="ms-5  fs-4">New arrivals, New collections</span><br>
+            <span class="fs-4">New arrivals, New collections DESIRECARD</span><br>
+            <span class="ms-5 fs-4">Offers valid for days only</span><br/>
+            <span class="ms-5 fs-4">HURRY UP!</span><br>
+            <br>
+            <input type="submit" value="SHOP NOW" class="ms-5 bg-mycolor text-light" style="height: 40px;width: 170px;border-radius:40px;"/>
+          
+        
+    </div>
+</div>
+<div class="row service">
+  <p class="fs-2 text-warning text-center">OUR<B class="fs-2 text-dark">SERVICES
+    <i class="fa-solid fa-wand-magic-sparkles fs-2"></i>
+  </B></p>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="row">
+        <div class="col-sm-4 bg-light fs-1 text-end pt-3 border border-3 border-end-0  text-danger"><i class="fa-solid fa-truck "></i></DIV>
+        <div class="col-sm-8 text-center pt-3 border border-3 border-start-0  "><b>FREE SHOPING</b>
+        <BR><P>Far all order upto 2000</P></BR></DIV>
+      </div>
+    </div>
+      <div class="col-sm-4">
+<div class="row">
+  <div class="col-sm-4 bg-light fs-1 text-end pt-3 border border-3 border-end-0  text-danger"><i class="fa-sharp fa-solid fa-clock"></i></DIV>
+  <div class="col-sm-8 text-center pt-3 border border-3 border-start-0  "><b>ELIVERY ON TIME</b>
+  <BR><P>fastest Delivery at docestep</P></BR></DIV>
+</div>
+      </div>
+      <div class="col-sm-4">
+<div class="row">
+  <div class="row">
+    <div class="col-sm-4 bg-light fs-1 text-end pt-3 border border-3 border-end-0  text-danger"><i class="fa-solid fa-unlock-keyhole"></i></i></DIV>
+    <div class="col-sm-8 text-center pt-3 border border-3 border-start-0  "><b>SECURE PAYMENT</b>
+    <BR><P>100% Secure Payment</P></BR></DIV>
+  </div>
+</div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2"></div>
+
+<div class="row footer bg-dark mt-4">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+    <div class="row">
+        <div class="col-sm-3 text-center p-2 ">
+          <span class="text-light fs-4">Desire<b class="text-danger">Cart <i class="fa-solid fa-cart-shopping text-danger"></i></b>
+          </br>
+            <h6 class="text-light">Address:lucknow uttar paradesh 226022</br>
+              Phone: +91-9519348772</br>
+              E-mail:-manishkumar951934@gmail.com
+              </h6>
+            
+        </div>
+        <div class="col-sm-3 p-2">
+        <h6 class="text-light text-center">Information</br>
+        </br>
+            About US</br>
+            Checkout</br>
+            Contact</br>
+          </h6>
+    
+        </div>
+        <div class="col-sm-3 p-2">
+          <h6 class="text-light text-center">My  Account</br>
+          </br>
+              My Acount</br></br>
+              Contart</br></br>
+              Shopping Cart</br>
+            </h6>
+        </div>
+        <div class="col-sm-3 p-2">
+          <h6 class="text-light text-center">join Our Neweletter NOw</br></br>
+          Get E-mail updateabout our latter shop and</br>
+          special otter
+          </h6>
+          <div class="input-group m-1 fs-3 ">
+            <input type="password" placeholder="Enter your Email" class="form-control "/>
+            <i class="input-group-text  bg-mycolor text-light ">
+               SUBSCRIBE
+            </i>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-sm-2"></div>
+</div>      
+                </div>
+    </body>
+    </head>
